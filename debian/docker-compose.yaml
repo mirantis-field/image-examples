@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+    debian:
+        environment:
+            ENV_VARIABLE1: variable1
+            ENV_VARIABLE2: variable2
+        image: debian-example:latest
